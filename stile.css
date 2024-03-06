@@ -1,0 +1,57 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.colonna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.cella {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+#colonna1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#colonna1 .cella {
+    width: 100%;
+    height: 20%; 
+}
+
+
+#colonna2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#colonna2 .cella {
+    width: 50%; 
+    height: 50%; 
+}
+
+
+#colonna3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#colonna3 .cella {
+    width: 20%; 
+    height: 20%; 
+}
